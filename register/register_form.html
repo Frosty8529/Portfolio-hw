@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container-1">
+      <fieldset>
+        <legend>Register Form</legend>
+        <div class="register-container">
+          <p>Firstname:</p>
+          <input type="text" placeholder="" name="Firstname" />
+        </div>
+        <div class="register-container">
+          <p>Lastname:</p>
+          <input type="text" placeholder="" name="Lastname" />
+        </div>
+        <div class="register-container">
+          <p>Password:</p>
+          <input type="text" placeholder="" name="Password" />
+        </div>
+        <div class="register-container">
+          <p>Confirm Password:</p>
+          <input type="text" placeholder="" name="Confirm Password" />
+        </div>
+        <div class="register-container">
+          <p>Email:</p>
+          <input type="email" placeholder="" name="Email" />
+        </div>
+        <div class="register-container">
+          <p>Confirm Email:</p>
+          <input type="text" placeholder="" name="Confirm Email" />
+        </div>
+        <div class="register-container">
+          <p>Birthday:</p>
+          <div class="dropdown-container">
+            <select class="dropdown-day-1-31"></select>
+            <select class="dropdown-month-1-12"></select>
+            <select class="dropdown-year-1980-2005"></select>
+          </div>
+        </div>
+        <div class="register-container">
+          <p>Gender:</p>
+          <input
+            type="radio"
+            id="html"
+            name="fav_language"
+            value="HTML"
+            checked
+          />
+          <label for="html">Male</label><br />
+          <input type="radio" id="css" name="fav_language" value="CSS" />
+          <label for="css">Female</label><br />
+        </div>
+        <div class="submit-buttons">
+          <input type="submit" value="Submit" />
+          <input type="submit" value="Reset" id="reset-button" />
+        </div>
+      </fieldset>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
